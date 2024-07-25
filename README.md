@@ -25,7 +25,6 @@ This project aims to improve understanding of processes, file descriptors, and t
 - **Pipes**: Implement the pipe (`|`) functionality to connect commands.
 - **Environment Variables**: Handle environment variables and special variables like `$?` and `$$` (which returns the PID).
 - **Advanced Command Handling**: Support for logical operators `&&` and `||`, and wildcard expansion with `*`.
-- **External Thread for Monitoring**: Use an external thread to monitor the state of the shell and ensure proper handling of commands and processes.
 
 #### **Compiling the Project**
 The **minishell** project includes a Makefile for easy compilation. Simply run:
@@ -48,16 +47,12 @@ Then you are ready to experience a fantastic shell. Enjoy!
 - **Builtin Commands**: Implementing builtins with proper handling of options and arguments.
 - **Bonus Features**: Adding support for logical operators `&&` and `||`, wildcards, and proper handling of parentheses for command grouping.
 
-#### **Project Details**
-- **Philosopher States**: Philosophers can be in one of three states: eating, thinking, or sleeping. They need two forks to eat and release the forks after eating.
-- **Synchronization**: Mutexes are used to ensure that no two philosophers can hold the same fork at the same time.
-- **State Monitoring**: An external thread monitors the state of philosophers and logs state changes. This thread ensures that no philosopher starves.
-
 #### 🛠 **Skills**
 - C
-- Concurrency
-- Thread management
-- Mutex synchronization
+- Shell scripting
+- Signal handling
+- Process management
+- Memory management
 
 #
 💬 **Ask Me About:**
